@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Pedro Zara\\source\\repos\\AtividadeClienstesVetor\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8D355323-3B3C-408E-95C6-79F63BE4534B}|AtividadeClienstesVetor\\AtividadeClienstesVetor.csproj|c:\\users\\pedro zara\\source\\repos\\atividadeclienstesvetor\\atividadeclienstesvetor\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D355323-3B3C-408E-95C6-79F63BE4534B}|AtividadeClienstesVetor\\AtividadeClienstesVetor.csproj|solutionrelative:atividadeclienstesvetor\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D355323-3B3C-408E-95C6-79F63BE4534B}|AtividadeClienstesVetor\\AtividadeClienstesVetor.csproj|c:\\users\\pedro zara\\source\\repos\\atividadeclienstesvetor\\atividadeclienstesvetor\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D355323-3B3C-408E-95C6-79F63BE4534B}|AtividadeClienstesVetor\\AtividadeClienstesVetor.csproj|solutionrelative:atividadeclienstesvetor\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D355323-3B3C-408E-95C6-79F63BE4534B}|AtividadeClienstesVetor\\AtividadeClienstesVetor.csproj|c:\\users\\pedro zara\\source\\repos\\atividadeclienstesvetor\\atividadeclienstesvetor\\pessoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D355323-3B3C-408E-95C6-79F63BE4534B}|AtividadeClienstesVetor\\AtividadeClienstesVetor.csproj|solutionrelative:atividadeclienstesvetor\\pessoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Cliente.cs",
+              "DocumentMoniker": "C:\\Users\\Pedro Zara\\source\\repos\\AtividadeClienstesVetor\\AtividadeClienstesVetor\\Cliente.cs",
+              "RelativeDocumentMoniker": "AtividadeClienstesVetor\\Cliente.cs",
+              "ToolTip": "C:\\Users\\Pedro Zara\\source\\repos\\AtividadeClienstesVetor\\AtividadeClienstesVetor\\Cliente.cs",
+              "RelativeToolTip": "AtividadeClienstesVetor\\Cliente.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAgwDEAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T14:30:36.424Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Pessoa.cs",
+              "DocumentMoniker": "C:\\Users\\Pedro Zara\\source\\repos\\AtividadeClienstesVetor\\AtividadeClienstesVetor\\Pessoa.cs",
+              "RelativeDocumentMoniker": "AtividadeClienstesVetor\\Pessoa.cs",
+              "ToolTip": "C:\\Users\\Pedro Zara\\source\\repos\\AtividadeClienstesVetor\\AtividadeClienstesVetor\\Pessoa.cs",
+              "RelativeToolTip": "AtividadeClienstesVetor\\Pessoa.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T14:29:32.301Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Pedro Zara\\source\\repos\\AtividadeClienstesVetor\\AtividadeClienstesVetor\\Program.cs",
+              "RelativeDocumentMoniker": "AtividadeClienstesVetor\\Program.cs",
+              "ToolTip": "C:\\Users\\Pedro Zara\\source\\repos\\AtividadeClienstesVetor\\AtividadeClienstesVetor\\Program.cs",
+              "RelativeToolTip": "AtividadeClienstesVetor\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T14:29:09.099Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

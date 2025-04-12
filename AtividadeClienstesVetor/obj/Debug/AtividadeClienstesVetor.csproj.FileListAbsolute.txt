@@ -1,0 +1,7 @@
+C:\Users\Pedro Zara\source\repos\AtividadeClienstesVetor\AtividadeClienstesVetor\bin\Debug\AtividadeClienstesVetor.exe.config
+C:\Users\Pedro Zara\source\repos\AtividadeClienstesVetor\AtividadeClienstesVetor\bin\Debug\AtividadeClienstesVetor.exe
+C:\Users\Pedro Zara\source\repos\AtividadeClienstesVetor\AtividadeClienstesVetor\bin\Debug\AtividadeClienstesVetor.pdb
+C:\Users\Pedro Zara\source\repos\AtividadeClienstesVetor\AtividadeClienstesVetor\obj\Debug\AtividadeClienstesVetor.csproj.AssemblyReference.cache
+C:\Users\Pedro Zara\source\repos\AtividadeClienstesVetor\AtividadeClienstesVetor\obj\Debug\AtividadeClienstesVetor.csproj.CoreCompileInputs.cache
+C:\Users\Pedro Zara\source\repos\AtividadeClienstesVetor\AtividadeClienstesVetor\obj\Debug\AtividadeClienstesVetor.exe
+C:\Users\Pedro Zara\source\repos\AtividadeClienstesVetor\AtividadeClienstesVetor\obj\Debug\AtividadeClienstesVetor.pdb
