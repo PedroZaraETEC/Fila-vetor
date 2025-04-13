@@ -11,19 +11,6 @@ namespace AtividadeClienstesVetor
         Pessoa[] pessoasNaoListadas = new Pessoa[11];
         Pessoa[] clientes = new Pessoa[11];
 
-        /*public override void cadastrar()
-        {
-            Console.WriteLine("Possui quantos clientes: ");
-            int quantidadeClientes = int.Parse(Console.ReadLine());
-
-            for (int clientesPassados = 0; clientesPassados < quantidadeClientes; clientesPassados++)
-            {
-                clientes[clientesPassados] = new Pessoa();
-                clientes[clientesPassados].cadastrar();
-            }
-        }*/
-
-
         public override void cadastrar()
         {
             Console.WriteLine("\t\tÁrea de cadastro do cliente\n");
@@ -59,7 +46,8 @@ namespace AtividadeClienstesVetor
 
         public void atender()
         {
-            Console.Write("Qual cliente deseja: ");
+            exibirListaSimples();
+            Console.Write("\n\nQual cliente deseja: ");
             string nomeEscolhido = Console.ReadLine();
             procurar(nomeEscolhido, false);
 
@@ -83,10 +71,8 @@ namespace AtividadeClienstesVetor
                             {
                                 clientes[buscaIndiceVazio] = pessoasNaoListadas[buscaNome];
                                 pessoasNaoListadas[buscaNome] = null;
-                                break;
                             }
                         }
-                        break;
                     }
                 }
                 organizarLista();
@@ -94,9 +80,9 @@ namespace AtividadeClienstesVetor
 
             else
             {
-                for (int buscaIndice = 0; buscaIndice < clientes.Length; buscaIndice++)
+                for (int buscaIndice = 0; buscaIndice < clientes.Length - 1; buscaIndice++)
                 {
-                    if (clientes[buscaIndice].nome == nomeEscolhido)
+                    if (clientes[buscaIndice] != null && clientes[buscaIndice].nome == nomeEscolhido)
                     {
                         clientes[buscaIndice] = null;
                         break;
@@ -105,29 +91,6 @@ namespace AtividadeClienstesVetor
                 organizarLista();
             }
         }
-
-
-        /*public void organizarLista()
-        {
-            for (int posicaoCliente = 0; posicaoCliente < clientes.Length; posicaoCliente++)
-            {
-                Pessoa clienteAtual = clientes[posicaoCliente];
-                Pessoa clienteProximo = (posicaoCliente + 1 < clientes.Length) ? clientes[posicaoCliente + 1] : null;
-
-                //if (clientes[posicaoCliente].prioridade == false || clientes[posicaoCliente] == null && clientes[posicaoCliente + 1].prioridade == true || clientes[posicaoCliente] == null)
-
-                if ((clienteAtual == null && clienteProximo != null && clienteProximo.prioridade) ||
-                    (clienteAtual != null && !clienteAtual.prioridade && clienteProximo != null && clienteProximo.prioridade))
-                {
-                    for (int clientePrioritario = 0; clientePrioritario < clientes.Length - 1; clientePrioritario++)
-                    {
-                        Pessoa clienteNaoPrioritario = clientes[clientePrioritario];
-                        clientes[clientePrioritario] = clientes[clientePrioritario + 1];
-                        clientes[clientePrioritario + 1] = clienteNaoPrioritario;
-                    }
-                }
-            }
-        }*/
 
         public void organizarLista()
         {
@@ -184,7 +147,8 @@ namespace AtividadeClienstesVetor
 
         public void exibirListaSimples()
         {
-            Console.Write("Fila Listados:\n");
+            Console.Write("Fila Listados:\n\n");
+            Console.ForegroundColor = ConsoleColor.Yellow;
             for (int indiceCliente = 0; indiceCliente < clientes.Length; indiceCliente++)
             {
                 if (clientes[indiceCliente] != null)
@@ -192,13 +156,15 @@ namespace AtividadeClienstesVetor
                     Console.Write($"{clientes[indiceCliente].nome} (Prioridade: {clientes[indiceCliente].prioridade})\n");
                 }
             }
+            Console.ResetColor();
             //Nota: Pode-se utilizar o foreach para percorrer o vetor, igualmente com essa método que utiliza o for
         }
 
 
         public void exibirListaClientesNaoListados()
         {
-            Console.Write("Fila não Listados:\n");
+            Console.Write("Fila não Listados:\n\n");
+            Console.ForegroundColor = ConsoleColor.Yellow;
             for (int indiceCliente = 0; indiceCliente < pessoasNaoListadas.Length; indiceCliente++)
             {
                 if (pessoasNaoListadas[indiceCliente] != null)
@@ -206,8 +172,10 @@ namespace AtividadeClienstesVetor
                     Console.Write($"Nome: {pessoasNaoListadas[indiceCliente].nome} (Prioridade: {pessoasNaoListadas[indiceCliente].prioridade})\n");
                 }
             }
+            Console.ResetColor();
         }
 
 
     }
 }
+
